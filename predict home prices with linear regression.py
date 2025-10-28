@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
+#---------------------PART I
 #list of properties 
 #first element is house size
 #second element is price
@@ -100,6 +101,21 @@ b = (sum(properties_price) * sum(i**2 for i in properties_size) - sum(properties
 #plot the linear regression line
 line = m * size + b
 plt.plot(size, line, color='orange', label='Line of Best Fit')
+
+
+
+
+
+
+
+
+
+#-----------------------------------PART II
+#ask the user for the size of their property
+users_property_size = input("Enter the size of your property (sq.ft): ")
+users_property_price = input("Now enter the size of your property (sq.ft): ")
+
+
 
 
 

@@ -114,6 +114,13 @@ plt.plot(size, line, color='orange', label='Line of Best Fit')
 #ask the user for the size of their property
 users_property_size = input("Enter the size of your property (sq.ft): ")
 users_property_price = input("Now enter the size of your property (sq.ft): ")
+plt.plot(int(users_property_size), int(users_property_price), marker='o', markersize=8, color='red')
+
+if int(users_property_price) > m*int(users_property_size) + b:
+    print ("The given property is greater then market value. This may not be a good price :(")
+else:
+    print("The given property is at or below market value. This is probably a good price :)")
+
 
 
 

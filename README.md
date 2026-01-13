@@ -13,6 +13,6 @@ Clone the repo like so:
 
 Run the following command to execute the program:
 
-    python3 predict home prices with linear regression.py
+    python3 predict_prices.py
 
 

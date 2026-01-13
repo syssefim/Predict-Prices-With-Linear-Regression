@@ -4,7 +4,7 @@ Given a list of properties and their price and size, calculate the linear regres
 
 # Installing 
 
-Clone the repo like so:
+Clone the repo and then enter the folder like so:
 
     git clone https://github.com/syssefim/Predict-Prices-With-Linear-Regression
     cd Predict-Prices-With-Linear-Regression
